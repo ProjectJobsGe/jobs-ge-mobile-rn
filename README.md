@@ -6,19 +6,17 @@
 ```
 npm install -g yarn
 ```
-დავაინსტალიროთ pachage ები
+დავაინსტალიროთ package ები
 ```
 yarn install
 ```
-### დავაყენო expo-cli
+### დავაყენოთ expo-cli
 
 ```
 npm install -g expo-cli
 
 ```
-
 ### გავუშვათ პროექტი
-
 ```
 expo start
 ```
