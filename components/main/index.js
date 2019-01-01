@@ -7,6 +7,9 @@ import {
   StyleSheet,
 } from 'react-native';
 import { Appbar } from 'react-native-paper';
+import ListView from "./ListView"
+
+
 export default class Main extends Component {
 
   _onSearch = () => console.log('Searching');
@@ -25,8 +28,7 @@ export default class Main extends Component {
           <Appbar.Action icon="more-vert" onPress={this._onMore} />
         </Appbar.Header>
 
-         <Text>Content here</Text>
-
+   <ListView />
       </View>
     );
   }
