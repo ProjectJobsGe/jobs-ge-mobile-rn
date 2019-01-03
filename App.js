@@ -1,7 +1,6 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import Main from "./components/main"
 import { DefaultTheme, Provider as PaperProvider } from 'react-native-paper';
+import Main from './components/main';
 
 
 const theme = {
@@ -10,15 +9,13 @@ const theme = {
   colors: {
     ...DefaultTheme.colors,
     primary: '#0084af',
-  }
+  },
 };
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <PaperProvider theme={theme}>
-      <Main />
-    </PaperProvider>
-    );
-  }
-}
+const App = () => (
+  <PaperProvider theme={theme}>
+    <Main />
+  </PaperProvider>
+);
+
+export default App;
