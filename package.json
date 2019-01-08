@@ -6,6 +6,10 @@
     "ios": "expo start --ios",
     "eject": "expo eject",
     "eslint": "./node_modules/.bin/eslint ./"
+    "test": "node_modules/.bin/jest"
+  },
+  "jest": {
+    "preset": "jest-react-native"
   },
   "dependencies": {
     "expo": "^31.0.2",
@@ -21,6 +25,9 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.12.2"
+    "babel-jest": "^23.6.0",
+    "babel-preset-expo": "^5.0.0",
+    "jest-expo": "^32.0.0"
   },
   "private": true
 }
